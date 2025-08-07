@@ -83,3 +83,8 @@ h1 {
     color: #bbb;
     font-size: 0.9em;
 }
+
+.honenashi {
+    display: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
