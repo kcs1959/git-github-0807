@@ -1,7 +1,7 @@
 * {
     font-family: "ヒラギノ角ゴシック", "游ゴシック", "メイリオ", Arial, Helvetica, sans-serif;
-    color: aliceblue; 
-    background-color: black;
+    color: black; 
+    background-color: white;
 }
 
 ul.menu {
@@ -22,15 +22,6 @@ h1 {
 #introduction {
     width: 80vw;
     margin: 0 auto;
-    padding: 30px;
-    border-radius: 16px;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px); /* Safari support */
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    color: white;
-    text-align: center;
 }
 
 #introduction h1{
@@ -39,4 +30,23 @@ h1 {
 
 #introduction p{
     background-color: transparent;
+}
+
+.heading {
+    text-align: center;
+}
+
+.groups {
+    width: 80vw;
+    margin: 5em auto;
+}
+
+.groupMenu{
+    display: flex;
+    justify-content: center;
+}
+
+.groupMenu li{
+    display: inline;
+    margin: auto;
 }
