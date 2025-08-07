@@ -1,0 +1,42 @@
+* {
+    font-family: "ヒラギノ角ゴシック", "游ゴシック", "メイリオ", Arial, Helvetica, sans-serif;
+    color: aliceblue; 
+    background-color: black;
+}
+
+ul.menu {
+    display: flex;
+    justify-content: center;
+}
+
+ul.menu li {
+    display: inline;
+    text-align: center;
+    margin: 0 2em ;
+}
+
+h1 {
+    text-align: center;
+}
+
+#introduction {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: white;
+    text-align: center;
+}
+
+#introduction h1{
+    background-color: transparent;
+}
+
+#introduction p{
+    background-color: transparent;
+}
