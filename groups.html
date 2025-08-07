@@ -16,13 +16,8 @@
     </header>
 
     <h1>班紹介</h1>
-    <ul>
-        <li><a href="./index.html">KCS について</a></li>
-        <li>班紹介</li>
-        <li><a href="./events.html">イベント情報</a></li>
-    </ul>
     <h2>班一覧</h2>
-    <ul>
+    <ul class="groupslist">
         <li><a href="#system">system班</a></li>
         <li><a href="#programing_compe">競プロ班</a></li>
         <li><a href="#web">web班</a></li>
@@ -31,6 +26,7 @@
         <li><a href="#game">ゲーム班</a></li>
         <li><a href="#music">音楽班</a></li>
         <li><a href="#movie">映像制作班</a></li>
+        <li><a href="#gemubu">KCSゲーム部班</a></li>
     </ul>
 
     <h2 id="system">システム班</h2>
@@ -69,7 +65,7 @@
     <h2 id="movie">映像制作班</h2>
     <p>たぶんですが、映像を作っています。</p>
 
-    <h2>KCSゲーム部班</h2>
+    <h2 id="gemubu">KCSゲーム部班</h2>
     <ul>
         <li>duolingo</li>
         <p>目指せ10,000日超を目標に日々精進しています。</p>
@@ -123,8 +119,17 @@
     </footer>
 </body>
 <style>
-    .btn1{
+    .btn1 {
         color: yellow;
     }
+
+    .groupslist {
+        column-width: 100px;
+        column-count: auto;
+        text-align: left;
+        list-style: "";
+        column-gap: 2em;
+    }
 </style>
+
 </html>
