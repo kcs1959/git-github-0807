@@ -2,70 +2,7 @@
 
 <head>
     <title>Git & GitHub 講習会</title>
-    <link rel="stylesheet" href="styles7.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="KCSのイベント情報ページです。">
-
-    <style>
-        .list1 {
-            position: relative;
-            padding-left: 30px;
-            margin-bottom: 12px;
-            font-size: 16px;
-            color: #c21e1e;
-            border: 2px solid #333;
-            max-width: 600px;
-            background-color: #f9f9f9;
-            border-radius: 8px;
-        }
-
-        .janken {
-            font-size: 20px;
-            color: #1e90ff;
-            margin-top: 20px;
-            font-family: 'Times New Roman', Times, serif;
-            font-weight: bold;
-        }
-
-        .button1 {
-            background-color: #4CAF50;
-            /* 緑色 */
-            border: none;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-        }
-
-        .img {
-
-            border: 2px solid #ccc;
-            border-radius: 10px;
-            transition: transform 0.5s ease;
-            position: relative;
-            animation: moveRight 2s linear infinite alternate;
-        }
-
-        .img:hover {
-            transform: translateX(100px);
-        }
-
-        @keyframes moveRight {
-            from {
-                left: 0;
-            }
-
-            to {
-                left: 200px;
-            }
-        }
-    </style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -137,7 +74,26 @@
     <img src="vscode.png" alt="VSCode Logo" class="img" style="width: 600px; height: 300px;">
     <img src="kirimi.jpg" alt="GitHub Logo" class="img" style="width: 720px; height: 400px;">
     <p>このページは、KCSのイベント情報を提供しています。</p>
+    <footer>
 
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="logo.jpeg" alt="kcs1959">
+            </div>
+            <div class="footer-copy">
+                © 2025 KCS1959
+            </div>
+            <div class="footer-list">
+                <ul style="list-style: none; padding: 0;">
+                    <li>入部方法 : 不明</li>
+                    <li>一押し言語 : <strong>C</strong>, <strong>英語</strong>, <strong>F#</strong>, <strong>Deutsch</strong>
+                    </li>
+                    <li>TEL : 5a-4d2-162e</li>
+                    <li>足 : ここ</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
