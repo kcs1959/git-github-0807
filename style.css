@@ -5,3 +5,8 @@
 ul.menu li {
     display: inline;
 }
+
+.honenashi {
+    display: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
