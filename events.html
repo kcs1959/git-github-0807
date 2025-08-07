@@ -39,15 +39,17 @@
             cursor: pointer;
         }
         .img{
-
             border: 2px solid #ccc;
             border-radius: 10px;
             transition: transform 0.5s ease;
             position: relative;
             animation: moveRight 2s linear infinite alternate;
+            
         }
         .img:hover  {
             transform: translateX(100px);
+            transform: rotate(90deg);
+            
         }
         @keyframes moveRight {
         from {
@@ -56,6 +58,7 @@
         to {
         left: 200px;
         }
+
     }
     </style>
     
