@@ -1,17 +1,18 @@
 * {
-    font-family:'Courier New', Courier, monospace;
+    font-family: "ヒラギノ角ゴシック", "游ゴシック", "メイリオ", Arial, Helvetica, sans-serif;
     color: aliceblue; 
     background-color: black;
 }
 
 ul.menu {
-    width: 300px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 ul.menu li {
     display: inline;
     text-align: center;
+    margin: 0 2em ;
 }
 
 h1 {
